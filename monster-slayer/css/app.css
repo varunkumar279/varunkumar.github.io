@@ -1,0 +1,154 @@
+* {
+  font-family: "Segoe UI light";
+}
+
+.text-center {
+  text-align: center;
+}
+
+.healthbar {
+  width: 80%;
+  height: 40px;
+  background-color: #eee;
+  margin: auto;
+  transition: width 500ms;
+}
+
+.controls, .log {
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 4px 4px 6px #ccc;
+}
+
+.turn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.log ul {
+  list-style: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.log ul li {
+  margin: 5px;
+}
+
+.log ul .player-turn {
+  color: blue;
+  background-color: #e4e8ff;
+}
+
+.log ul .monster-turn {
+  color: red;
+  background-color: #ffc0c1;
+}
+
+button {
+  font-size: 18px;
+  background-color: rgb(238, 238, 238);
+  padding: 12px 26px;
+  margin: 10px 25px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-radius: 3px;
+}
+
+#end-game {
+  float: right;
+}
+
+.game-title {
+  margin-bottom: 45px;
+  font-weight: 700;
+  font-family: Courier;
+  font-size: 58px;
+  color: rgb(202, 65, 65);
+}
+
+.attack-name {
+  min-height: 50px;
+  text-transform: capitalize;
+  opacity: 0;
+}
+
+.attackAnimation {
+  opacity: 1 !important;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+  color: red;
+}
+
+.win {
+  color: green;
+  transform: scale(2);
+}
+
+.rules-section {
+  background-color: rgb(255, 117, 117);
+}
+
+.controls-section {
+  background-color: rgb(74, 228, 228);
+}
+
+.controls-section, .rules-section {
+  width: 65%;
+  margin: auto;
+  min-height: 175px;
+}
+
+.controls-section ul, .rules-section ul {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 0px;
+}
+
+.controls-section h3, .rules-section h3 {
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#start-game {
+  background-color: #aaffb0;
+}
+
+#start-game:hover {
+  background-color: #76ff7e;
+}
+
+#sneaky {
+  background-color: rgb(149, 148, 239);
+      float: left;
+}
+
+#sneaky:hover {
+  background-color: rgb(124, 122, 247);
+}
+
+#aggressive {
+  background-color: #ffaf4f;
+      float: left;
+}
+
+#aggressive:hover {
+  background-color: #ff9a2b;
+}
+
+#defense {
+  background-color: #aaffb0;
+      float: left;
+}
+
+#defense:hover {
+  background-color: #76ff7e;
+}
